@@ -97,3 +97,11 @@ Paths: Update train_extracted_path, test_extracted_path, and single_image_path t
 Performance: The model is trained for 5 epochs. Increase epochs or tune lr for better accuracy.
 Hardware: Mixed precision reduces GPU memory usage, but CPU training is supported.
 Image Format: Only PNG images are processed.
+Ensure filenames start with class names (e.g., ship_001.png).
+
+#Contributing
+Fork the repository.
+Create a feature branch (git checkout -b feature-branch).
+Commit changes (git commit -m 'Add feature').
+Push to the branch (git push origin feature-branch).
+Open a Pull Request.
