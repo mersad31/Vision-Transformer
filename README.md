@@ -96,4 +96,4 @@ Dataset: Excluded from the repository (see .gitignore). Users must provide their
 Paths: Update train_extracted_path, test_extracted_path, and single_image_path to match your local setup.
 Performance: The model is trained for 5 epochs. Increase epochs or tune lr for better accuracy.
 Hardware: Mixed precision reduces GPU memory usage, but CPU training is supported.
-Image Format: Only PNG images are processed. Ensure filenames start with
+Image Format: Only PNG images are processed.
